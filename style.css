@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: black;
+}
+
+#emojee-container{
+ padding: 40px 30px 20px 20px;
+ font-size:26px;
+ color: white;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#input-container{
+padding:20px 30px 30px 20px ;
+
+
+
+}
+input{
+    height: 30px;
+    width: 14rem;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+button{
+    height: 30px;
+    width: 4rem;
+    border-radius: 8px;
+    padding: 3px 3px;
+}
