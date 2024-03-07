@@ -1,37 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: black;
-}
-
-#emojee-container{
- padding: 40px 30px 20px 20px;
- font-size:26px;
- color: white;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#input-container{
-padding:20px 30px 30px 20px ;
+body {
+  background-image: linear-gradient(to right, #f9d423, #3a1c71);
+ 
 
 
 
 }
-input{
-    height: 30px;
-    width: 14rem;
-    border-radius: 20px;
-    padding: 0 10px;
+
+#container {
+  padding: 40px 30px 20px 20px;
+  font-size: 26px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
 }
 
-button{
-    height: 30px;
-    width: 4rem;
-    border-radius: 8px;
-    padding: 3px 3px;
+/* #input-container {
+  padding: 20px 30px 30px 20px;
+} */
+input {
+  height: 40px;
+  width: 34rem;
+  border-radius: 20px;
+  padding: 0 10px;
+  border: none;
+}
+
+#button {
+  height: 40px;
+  width: 5rem;
+  border-radius: 20px;
+  padding: 3px 3px;
+  border: none;
+}
+
+.search-bar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
