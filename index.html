@@ -11,27 +11,29 @@
 
   </head>
   <body>
-    <div id="container">
+    
       <h1>Emojee - Emoji 🔍 Application</h1>
 
       <br />
+
+      <div class="search-field">
+        <form action="">
+          <input
+            type="text"
+            id="search-field"
+            autocomplete="off"
+            placeholder="Emojee search"
+          />
+          <input id="button" type="button" value="search" />
+        </form>
+      </div>
+      <div id="container">
       <table>
         <tbody id="emoji-container"></tbody>
       </table>
     </div>
 
-    <div class="search-field">
-      <form action="">
-        <input
-          type="text"
-          id="search-field"
-          autocomplete="off"
-          placeholder="Emojee search"
-        />
-        <input id="button" type="button" value="search" />
-      </form>
-    </div>
-
+    
     <script src="data.js"></script>
     <script src="script.js"></script>
   </body>
