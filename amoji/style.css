@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #f35e31, #329cf3);
+}
+
+#container {
+  padding: 40px 30px 20px 20px;
+  font-size: 26px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+h1{
+  text-align: center;
+  color: white;
+}
+
+
+input {
+  height: 40px;
+  width: 34rem;
+  border-radius: 20px;
+  padding: 0 10px;
+  border: none;
+}
+
+
+
+.search-field{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  /* text-align: left; */
+}
+
+/* Add this to your existing CSS or in a separate styles.css file */
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  animation: fadeIn 0.5s ease-in-out; /* Add the fade-in animation */
+}
+
+.small-text {
+  font-size: 12px; /* Adjust the size as needed */
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+button:hover {
+  color: #3498db;
+}
+
+
